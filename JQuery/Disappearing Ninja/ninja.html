@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Document</title>
+    <script>
+      $(document).ready(function(){
+      $("#img1").click(function(){
+           $("#img1").hide()
+       });
+       $("#img2").click(function(){
+           $("#img2").hide()
+       });
+       $("#img3").click(function(){
+           $("#img3").hide()
+       });
+       $("#img4").click(function(){
+           $("#img4").hide()
+       });
+       $("#img5").click(function(){
+           $("#img5").hide()
+       });
+       $("#img6").click(function(){
+           $("#img6").hide()
+       });
+       $("#img7").click(function(){
+           $("#img7").hide()
+       });
+       $("#img8").click(function(){
+           $("#img8").hide()
+       });
+       $("#rest").click(function(){
+           $("#img1" ).show();
+       })
+       $("#rest").click(function(){
+           $("#img3" ).show();
+       })
+       $("#rest").click(function(){
+           $("#img4" ).show();
+       })
+       $("#rest").click(function(){
+           $("#img5" ).show();
+       })
+       $("#rest").click(function(){
+           $("#img6" ).show();
+       })
+       $("#rest").click(function(){
+           $("#img7" ).show();
+       })
+       $("#rest").click(function(){
+           $("#img8" ).show();
+       })
+       $("#rest").click(function(){
+           $("#img2" ).show();
+       })
+    });
+    </script>
+</head>
+<body>
+    <div class="ninja">
+        <img id="img1"  src="ninja1.jpg" alt="Ninja">
+        <img id="img2" src="ninja1.jpg" alt="Ninja">
+        <img id="img3" src="ninja1.jpg" alt="Ninja">
+        <img id="img4" src="ninja1.jpg" alt="Ninja">
+        <img id="img5" src="ninja1.jpg" alt="Ninja">
+        <img id="img6" src="ninja1.jpg" alt="Ninja">
+        <img id="img7" src="ninja1.jpg" alt="Ninja">
+        <img id="img8" src="ninja1.jpg" alt="Ninja">
+
+    </div>
+    <input id="rest" type="button" value="Restore">
+</body>
+</html>

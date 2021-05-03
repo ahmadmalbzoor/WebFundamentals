@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(Document).ready(function(){
+            $("#btnadc").click(function(){
+                $("#first").addClass("colora");
+            });
+            $("#btnhide").click(function(){
+                $("#imghide").toggle()
+            });
+            $("#btnap").click(function(){
+                  $("#app").append("Hello")  
+            });
+            $("#hidei").click(function(){
+                $("#imghide2").hide();
+            });
+            $("#showi").click(function(){
+                $("#imghide2").show();
+            });
+            $("#up").click(function(){
+                $("#imgslide").slideUp();
+            })
+            $("#down").click(function(){
+                $("#imgslide").slideDown();
+            });
+            $("#toggle").click(function(){
+                $("#imgslide").slideToggle(); 
+            });
+            $("#in").click(function(){
+                $("#imgfade").fadeIn();
+            });
+            $("#out").click(function(){
+                $("#imgfade").fadeOut();
+            });
+
+            $("#before").click(function(){
+                $("#bid").before("AHMAD")
+            });
+            $("#after").click(function(){
+                $("#bid").after("AHMAD")
+            });
+            $("#btnattr").click(function(){
+                $("img").attr("width","500");
+            });
+            
+
+
+
+
+        });
+    </script>
+</head>
+<style>
+    .colora{  
+            color:red;
+        }
+        
+    
+    
+</style>
+<body>
+    <h1 id="addc" style="align-items: center;">AddClass</h1>
+    <button id=btnadc style="align-items: center;">Add class</button>
+    <span id="first">Click to the button to add class 'red' to this paragraph</span>
+    <hr id="txt1" style="background-color: black; height: 3px;">
+
+    <h1 id="hide" style="align-items: center;">Slidetoggle</h1>
+    <img id="imghide" style="width: 120px;" src="photo_of_me.jpg" alt="Hide">
+    <button id="btnhide" style="align-items: center;">Slidetoggle</button>
+    <span id="phide">Click to the button to slidetaggole a hidden image</span>
+    <hr style="background-color: black; height: 3px;">
+
+    <h1 id="append" style="align-items: center;">Append</h1>
+    <button id=btnap style="align-items: center;">Append</button>
+    <span id="app">Click to the button to append a new paragraph!</span>
+    <hr style="background-color: black; height: 3px;">
+
+    <h1>Hide and Show</h1>
+    <img id="imghide2" src="photo_of_me.jpg" style="width: 120px;" alt="hidwshowimage">
+    <button id="hidei">Hide</button>
+    <button id="showi">Show</button>
+    <hr style="background-color: black; height: 3px;">
+
+    <h1>Slide up and Down</h1>
+    <img id="imgslide" src="photo_of_me.jpg" style="width: 120px;" alt="hidwshowimage">
+    <button id="up">slide up</button>
+    <button id="down">slide down</button>
+    <button id="toggle">slide toggle</button>
+    <hr style="background-color: black; height: 3px;">
+
+    <h1>Fade in amd out</h1>
+    <img id="imgfade" src="photo_of_me.jpg" style="width: 120px;" alt="hidwshowimage">
+    <button id="in">fade in</button>
+    <button id="out">fade out</button>
+    <hr style="background-color: black; height: 3px;">
+
+    <h1 id="bid" style="align-items: center;">Befor and After</h1>
+    <button id="before" style="align-items: center;">Before</button>
+    <button id="after" style="align-items: center;">After</button>
+    <span id="pas">Click to the button to slidetaggole a hidden image</span>
+    <hr style="background-color: black; height: 3px;">
+
+    <h1 id="hide" style="align-items: center;">Attribute of the image</h1>
+    <img id="attr" style="width: 120px;" src="photo_of_me.jpg" alt="Hide">
+    <button id="btnattr" style="align-items: center;">ATTR</button>
+    <span id="phide">Click to the button to incrase the size of image</span>
+    <hr style="background-color: black; height: 3px;">
+</body>
+</html>

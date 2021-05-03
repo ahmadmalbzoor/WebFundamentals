@@ -1,0 +1,150 @@
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop
+$ cd
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~
+$ pwd
+/c/Users/BisanCo
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~
+$ ls
+'3D Objects'/            'Local Settings'@                                                                               OneDrive/       d4ac4633ebd6440fa397b84f1bc94a3c.7z
+ AppData/                 MicrosoftEdgeBackups/                                                                          Pictures/       inittk.ini
+'Application Data'@       Music/                                                                                         Postman/        inst.ini
+ Contacts/               'My Documents'@                                                                                 PrintHood@      ntuser.dat.LOG1
+ Cookies@                'NCH Software Suite'/                                                                           Recent@         ntuser.dat.LOG2
+ Desktop/                 NTUSER.DAT                                                                                    'Saved Games'/   ntuser.ini
+ Documents/               NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        Searches/       nuuid.ini
+ Downloads/               NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   SendTo@         test/
+ Favorites/               NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms  'Start Menu'@    useruid.ini
+ IntelGraphicsProfiles/   NetHood@                                                                                       Templates@      vmlogs/
+ Links/                   Nox_share/                                                                                     Videos/
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~
+$ cd Desktop/
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop
+$ ls
+'Ahmad AXSOS AC'/                      Nox.lnk*                                               assignment/      fakeblog.html                       'Ù…Ø¬Ù„Ø¯ Ø¬Ø¯ÙŠØ¯'/
+ Dev-C++.lnk*                         'Ploting .html'                                         assignment.rar  'flex navbar'/                       'Ù…Ø¬Ù„Ø¯ Ø¬Ø¯ÙŠØ¯ (2)'/
+ Grammarly.lnk*                       'Ploting your code'/                                    day2/           'ploting your code2'/                'Ù…Ø¬Ù„Ø¯ Ø¬Ø¯ÙŠØ¯ (3)'/
+'Indroduction _ Terminal Basics.pdf'  'Ploting your code.rar'                                 day2.html        programs/                           'Ù…Ø³ØªÙ†Ø¯ Ù†ØµÙŠ Ø¬Ø¯ÙŠØ¯ (2).txt'
+ Javascript/                          'Terminal and your File System _ Terminal Basics.pdf'   desktop.ini      regestration.html                   'Ù…Ø³ØªÙ†Ø¯ Ù†ØµÙŠ Ø¬Ø¯ÙŠØ¯.txt'
+ Javascript.rar                       'Terminal for Windows _ Terminal Basics.pdf'            destination/     style.css
+ Multi-Drive.lnk*                     'Visual Studio Code.lnk'*                               fake/            test22.html
+'Ninja Man.rar'                        Zoom.lnk*                                              fake.rar        '~$crosoft Word Document Ø¬Ø¯ÙŠØ¯.docx'
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop
+$ mkdir test
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop
+$ cd test
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ touch index.html
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ touch style.css
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ touch commands.txt
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html  style.css
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ cp index.html index_2.html
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html  index_2.html  style.css
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ cd ..
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop
+$ mkdir destination
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop
+$ cd test
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ mv index_2.html ./destination
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ mv index_2.html /destination'
+>
+> list
+> ls
+>
+> pwd
+> cd ..
+> cd ~
+> '
+mv: cannot stat 'index_2.html': No such file or directory
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ mv index_2.html /destination
+mv: cannot stat 'index_2.html': No such file or directory
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ cp index.html index_2.html
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ ls
+commands.txt  destination  index.html  index_2.html  style.css
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ mv index_2.html ./destination
+commands.txt  destination   index.html    index_2.html  style.css
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ mv index_2.html ./destination
+commands.txt  destination   index.html    index_2.html  style.css
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ mv index_2.html ./destination
+commands.txt  destination   index.html    index_2.html  style.css
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ mv index_2.html ./destination
+commands.txt  destination   index.html    index_2.html  style.css
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ mv index_2.html ./destination
+commands.txt  destination   index.html    index_2.html  style.css
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ mv index_2.html /desk
+mv: cannot move 'index_2.html' to '/desk': Permission denied
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ mv index_2.html ../destination/
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html  style.css
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ rm style.css
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ ls
+commands.txt  index.html
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ rm ../destination/
+rm: cannot remove '../destination/': Is a directory
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop/test
+$ cd ..
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop
+$ rm ./destination
+rm: cannot remove './destination': Is a directory
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop
+$ rm -rf ./destination/
+
+BisanCo@DESKTOP-EDC3MS5 MINGW64 ~/Desktop

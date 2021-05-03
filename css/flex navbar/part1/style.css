@@ -1,0 +1,19 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+.center-box{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-color: darkblue;
+    justify-content: center;
+}
+.center-item{
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+    align-items: center;
+   
+}

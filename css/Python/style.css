@@ -1,0 +1,156 @@
+
+.contaner{
+    width: 970px;
+    /* height: 400px; */
+    background-color: #245076;
+    margin: auto;
+}
+.head
+{
+    display: flex;
+    justify-content: space-between;
+}
+#logoimg{
+    width: 300px;
+    margin: 15px 0px 0px 25px;
+}
+#search{
+    margin: 6px 10px 0 0;
+    font-size: 10px;
+}
+.txtlable{
+    color: aliceblue;
+}
+.alink{
+    color: #c7ab00;
+}
+#bksrch{
+    width: 215px;
+    height: 65px;
+    background-color: #444444;
+    border-radius: 6px;
+    margin: 0 0 0 -69px;
+    display: block;
+}
+#btnsrch{
+    width: 37px;
+    height: 30px;
+    margin:0 0 0 -16px;
+    padding: 3px 0px 0 0;
+    background-color: #245076;
+    color: #ffffff;
+    border-radius: 7px;
+}
+#ahah{
+    display: flex;
+}
+#srchbx{
+    width: 134px;
+    margin: 20px 19px 0 15px;
+    padding: 7px 0 0 0;
+    border-radius: 5px;
+}
+#bar{
+    width: 815px;
+    height: 34px;
+    background-color: #457dad;
+    margin: 0 0 0 126px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bartxt{
+    margin: 7px 0px 0px 50px;
+    color: #fefeff;
+    font-size: 16px;
+}
+.Pythonlst{
+    display: flex;
+    justify-content: space-between;
+}
+#menulst{
+    margin: 28px 0 0 190px;
+    text-align-last: center;
+
+}
+#pythontxt{
+    width: 470px;
+    font-size: 12px;
+    margin: 14px 120px 0 0;
+    text-align: center;
+    color: white;
+
+
+}
+.alist{
+    color: white;
+    text-align: center;
+}
+.tdlist{
+    padding: 8px 0 0 0;
+}
+.pargpyth{
+    font-size: 16px;
+    color: #f1cc33 ;
+    font-style:oblique;
+}
+#whitecontent{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 10px 0 0;
+}
+.rightcont{
+    margin: 4px 17px 0 29px;
+    padding: 0 0 0 14px;
+}
+.labelblue{
+    width: 420px;
+    height: 2px;
+    background-color: #73a7d5    ;
+    margin: 5px 0 0 0;
+}
+h4{
+    text-align: center;
+    padding: auto;
+}
+#bgcont{
+    background-color: #ffffff;
+}
+.ppp{
+    text-align: center;
+}
+.licont{
+    color:black;
+    text-align: center;
+    list-style: square;
+    
+    
+}
+ .footer{
+     display:-webkit-box;
+     color: #ffffff9d;
+     font-size: small;
+     margin: 10px 0 0 240px;
+     padding: 0 0 8px 2px;
+
+ }
+
+ .pfooter{
+     margin:  30px 0 0 45px;
+     padding: 0 0 0 0;
+ }
+ .copyrt{
+     font-size: 5px;
+     color: #ffffffa6;
+     text-align: center;
+     padding: 10px 0 10px 0;
+ }
+ .spncolor{
+     color: #d1b840;
+     font-size: xx-small;
+     padding: 0 4px 0 0;
+     margin: 0 2px 0 0;
+ }
+span{
+    color:#73a7d5;
+}

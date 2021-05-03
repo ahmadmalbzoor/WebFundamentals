@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".img1").hover(function () {
+                var y = $(this).attr("src");
+                $(this).attr("src", $(this).attr("data-alt-src"));
+                $(this).attr("data-alt-src", y);
+            }, function () {
+                var y = $(this).attr("src");
+                $(this).attr('src', $(this).attr("data-alt-src"));
+                $(this).attr("data-alt-src", y);
+            })
+        });
+    </script>
+
+</head>
+<style>
+    .image {
+        display: -webkit-box;
+        width: 404px;
+    }
+</style>
+
+<body>
+    <div class="image">
+        <img class="img1" src="ajax.png" alt="" data-alt-src="img8.png">
+        <img class="img1" src="angular.png" alt="" data-alt-src="img8.png">
+        <img class="img1" src="bootstrap.png" alt="" data-alt-src="img8.png">
+        <img class="img1" src="codeigniter.png" alt="" data-alt-src="img8.png">
+    </div>
+</body>
+
+</html>

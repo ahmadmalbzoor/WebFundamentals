@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<script>
+    $(document).ready(function(){
+        $(".img0").click(function(){
+            $(".img0").attr("src",$(this).attr("data-alt-src"))
+        });
+        $(".img1").click(function(){
+            $(".img1").attr("src",$(this).attr("data-alt-src"))
+        });
+        $(".img2").click(function(){
+            $(".img2").attr("src",$(this).attr("data-alt-src"))
+        });
+        $(".img3").click(function(){
+            $(".img3").attr("src",$(this).attr("data-alt-src"))
+        });
+        $(".img4").click(function(){
+            $(".img4").attr("src",$(this).attr("data-alt-src"))
+        });
+    });
+
+</script>
+<style>
+    img{
+        padding: 2px;
+    }
+</style>
+<body>
+    <div id="cat">
+        <img  class="img0" src="ninja-cat/img/ninja0.png"  data-alt-src="cat0.png" />
+        <img  class="img1" src="ninja-cat/img/ninja1.png"  data-alt-src="cat1.png" />
+        <img  class="img2" src="ninja-cat/img/ninja2.png"  data-alt-src="cat2.png" />
+        <img  class="img3" src="ninja-cat/img/ninja3.png"  data-alt-src="cat3.png" />
+        <img  class="img4" src="ninja-cat/img/ninja4.png"  data-alt-src="cat4.png" />
+        
+    </div>
+    
+</body>
+</html>
